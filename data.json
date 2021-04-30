@@ -1,0 +1,279 @@
+{
+  "shoes": [
+    {
+      "name": "cloud",
+      "rating": 0
+    },
+    {
+      "name": "cloudx",
+      "rating": 0
+    },
+    {
+      "name": "cloudflow",
+      "rating": 0
+    },
+    {
+      "name": "cloudventure",
+      "rating": 0
+    },
+    {
+      "name": "cloudsurfer",
+      "rating": 0
+    },
+    {
+      "name": "cloudventure_waterproof",
+      "rating": 0
+    },
+    {
+      "name": "cloudventure_peak",
+      "rating": 0
+    },
+    {
+      "name": "cloudflyer",
+      "rating": 0
+    }
+  ],
+
+  "questions": [
+    {
+      "id": 0,
+      "copy": "Are you male or female?",
+      "answers": [
+        {
+          "id": 0,
+          "copy": "Male",
+          "nextQuestion": 1,
+          "ratingIncrease": {
+            "cloud": 5,
+            "cloudx": 4,
+            "cloudflow": 3,
+            "cloudventure": 1,
+            "cloudsurfer": 3,
+            "cloudventure_waterproof": 3,
+            "cloudventure_peak": 1,
+            "cloudflyer": 3
+          }
+        },
+        {
+          "id": 1,
+          "copy": "Female",
+          "nextQuestion": 1,
+          "ratingIncrease": {
+            "cloud": 2,
+            "cloudx": 4,
+            "cloudflow": 2,
+            "cloudventure": 1,
+            "cloudsurfer": 3,
+            "cloudventure_waterproof": 3,
+            "cloudventure_peak": 1,
+            "cloudflyer": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "copy": "Are you looking for a day to day trainer or running shoe?",
+      "answers": [
+        {
+          "copy": "Daily Shoe",
+          "nextQuestion": 2,
+          "ratingIncrease": {
+            "cloud": 5,
+            "cloudx": 4,
+            "cloudflow": 5,
+            "cloudventure": 1,
+            "cloudsurfer": 3,
+            "cloudventure_waterproof": 4,
+            "cloudventure_peak": 1,
+            "cloudflyer": 3
+          }
+        },
+        {
+          "copy": "Running Shoe",
+          "nextQuestion": 3,
+          "ratingIncrease": {
+            "cloud": 1,
+            "cloudx": 1,
+            "cloudflow": 1,
+            "cloudventure": 1,
+            "cloudsurfer": 3,
+            "cloudventure_waterproof": 3,
+            "cloudventure_peak": 1,
+            "cloudflyer": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "copy": "What type of cushioning do you prefer?",
+      "answers": [
+        {
+          "copy": "Direct",
+          "nextQuestion": 3,
+          "ratingIncrease": {
+            "cloud": 5,
+            "cloudx": 4,
+            "cloudflow": 3,
+            "cloudventure": 1,
+            "cloudsurfer": 3,
+            "cloudventure_waterproof": 3,
+            "cloudventure_peak": 1,
+            "cloudflyer": 3
+          }
+        },
+        {
+          "copy": "Soft",
+          "nextQuestion": 4,
+          "ratingIncrease": {
+            "cloud": 2,
+            "cloudx": 4,
+            "cloudflow": 2,
+            "cloudventure": 1,
+            "cloudsurfer": 3,
+            "cloudventure_waterproof": 3,
+            "cloudventure_peak": 1,
+            "cloudflyer": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "copy": "What surface do you usually run on?",
+      "answers": [
+        {
+          "copy": "Road",
+          "nextQuestion": 5,
+          "ratingIncrease": {
+            "cloud": 5,
+            "cloudx": 5,
+            "cloudflow": 5,
+            "cloudventure": 1,
+            "cloudsurfer": 3,
+            "cloudventure_waterproof": 3,
+            "cloudventure_peak": 5,
+            "cloudflyer": 3
+          }
+        },
+        {
+          "copy": "Trail",
+          "nextQuestion": 5,
+          "ratingIncrease": {
+            "cloud": 2,
+            "cloudx": 2,
+            "cloudflow": 3,
+            "cloudventure": 1,
+            "cloudsurfer": 3,
+            "cloudventure_waterproof": 3,
+            "cloudventure_peak": 1,
+            "cloudflyer": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "copy": "How would you describe your running ability?",
+      "answers": [
+        {
+          "copy": "Beginner",
+          "nextQuestion": 5,
+          "ratingIncrease": {
+            "cloud": 5,
+            "cloudx": 4,
+            "cloudflow": 3,
+            "cloudventure": 4,
+            "cloudsurfer": 3,
+            "cloudventure_waterproof": 3,
+            "cloudventure_peak": 1,
+            "cloudflyer": 4
+          }
+        },
+        {
+          "copy": "Experienced",
+          "nextQuestion": 6,
+          "ratingIncrease": {
+            "cloud": 5,
+            "cloudx": 4,
+            "cloudflow": 3,
+            "cloudventure": 1,
+            "cloudsurfer": 3,
+            "cloudventure_waterproof": 3,
+            "cloudventure_peak": 1,
+            "cloudflyer": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "copy": "Is this a training shoe or do you want something for race day?",
+      "answers": [
+        {
+          "copy": "Training",
+          "nextQuestion": 6,
+          "ratingIncrease": {
+            "cloud": 5,
+            "cloudx": 4,
+            "cloudflow": 5,
+            "cloudventure": 1,
+            "cloudsurfer": 3,
+            "cloudventure_waterproof": 5,
+            "cloudventure_peak": 1,
+            "cloudflyer": 5
+          }
+        },
+        {
+          "copy": "Race",
+          "nextQuestion": 6,
+          "ratingIncrease": {
+            "cloud": 1,
+            "cloudx": 4,
+            "cloudflow": 1,
+            "cloudventure": 1,
+            "cloudsurfer": 3,
+            "cloudventure_waterproof": 3,
+            "cloudventure_peak": 1,
+            "cloudflyer": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "copy": "What type of cushioning do you prefer?",
+      "answers": [
+        {
+          "copy": "Direct",
+          "nextQuestion": "",
+          "ratingIncrease": {
+            "cloud": 3,
+            "cloudx": 4,
+            "cloudflow": 3,
+            "cloudventure": 1,
+            "cloudsurfer": 3,
+            "cloudventure_waterproof": 5,
+            "cloudventure_peak": 3,
+            "cloudflyer": 5
+          }
+        },
+        {
+          "copy": "Soft",
+          "nextQuestion": "",
+          "ratingIncrease": {
+            "cloud": 2,
+            "cloudx": 2,
+            "cloudflow": 1,
+            "cloudventure": 1,
+            "cloudsurfer": 3,
+            "cloudventure_waterproof": 3,
+            "cloudventure_peak": 1,
+            "cloudflyer": 3
+          }
+        }
+      ]
+    }
+  ]
+}
