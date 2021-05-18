@@ -1,35 +1,43 @@
 {
   "shoes": [
     {
-      "name": "cloud",
+      "id": "cloud",
+      "name": "Cloud",
       "rating": 0
     },
     {
-      "name": "cloudx",
+      "id": "cloudx",
+      "name": "Cloud X",
       "rating": 0
     },
     {
-      "name": "cloudflow",
+      "id": "cloudflow",
+      "name": "Cloudflow",
       "rating": 0
     },
     {
-      "name": "cloudventure",
+      "id": "cloudventure",
+      "name": "Cloudventure",
       "rating": 0
     },
     {
-      "name": "cloudsurfer",
+      "id": "cloudsurfer",
+      "name": "Cloudsurfer",
       "rating": 0
     },
     {
-      "name": "cloudventure_waterproof",
+      "id": "cloudventure_waterproof",
+      "name": "Cloudventure Waterproof",
       "rating": 0
     },
     {
-      "name": "cloudventure_peak",
+      "id": "cloudventure_peak",
+      "name": "Cloudventure Peak",
       "rating": 0
     },
     {
-      "name": "cloudflyer",
+      "id": "cloudflyer",
+      "name": "Cloudflyer",
       "rating": 0
     }
   ],
