@@ -13,6 +13,7 @@ Build a small quiz for runners to find their perfect shoe.
 - For the final results screen, don’t follow the design of the screenshot too closely. Only listing the shoes together with a title and an introduction sentence is fine.
 - You don’t have to use the original fonts. Just go with some similar Google fonts.
 - Assets can be found in the assets directory.
+- We prefer to see a solution where you write your own scss code instead of using a css framework like Bootstrap or Tailwind.
 
 ### Technical implementation
 - If you already have some knowledge of Vue.js, create an app with vue-cli and show off your skills. If you are not familiar with Vue.js yet, vanilla JS or another frontend framework like React is fine too. Feel free to use a boilerplate to get started.
