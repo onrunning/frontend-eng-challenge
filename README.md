@@ -8,9 +8,7 @@ Build a small quiz for runners to find their perfect shoe.
 - Depending on how a question is answered, users can be taken to different follow-up questions. You will find the `nextQuestion` in the JSON file.
 - A blank `nextQuestion` means the quiz is finished and the results are presented (the best fitting shoes).
 - Also depending on the answer, we update the ranking of shoes. How much each shoe gains per answer is listed in the JSON file (`ratingIncrease`).
-- Only develop for mobile; no need for desktop adaptation.
 - Skip the main navigation, concentrate on the quiz.
-- For the final results screen, don’t follow the design of the screenshot too closely. Only listing the shoes together with a title and an introduction sentence is fine.
 - You don’t have to use the original fonts. Just go with some similar Google fonts.
 - Assets can be found in the assets directory.
 - We prefer to see a solution where you write your own scss code instead of using a css framework like Bootstrap or Tailwind.
