@@ -115,45 +115,11 @@
     },
     {
       "id": 2,
-      "copy": "What type of cushioning do you prefer?",
-      "answers": [
-        {
-          "copy": "Direct",
-          "nextQuestion": 3,
-          "ratingIncrease": {
-            "cloud": 5,
-            "cloudx": 4,
-            "cloudflow": 3,
-            "cloudventure": 1,
-            "cloudsurfer": 3,
-            "cloudventure_waterproof": 3,
-            "cloudventure_peak": 1,
-            "cloudflyer": 3
-          }
-        },
-        {
-          "copy": "Soft",
-          "nextQuestion": 4,
-          "ratingIncrease": {
-            "cloud": 2,
-            "cloudx": 4,
-            "cloudflow": 2,
-            "cloudventure": 1,
-            "cloudsurfer": 3,
-            "cloudventure_waterproof": 3,
-            "cloudventure_peak": 1,
-            "cloudflyer": 3
-          }
-        }
-      ]
-    },
-    {
-      "id": 3,
       "copy": "What surface do you usually run on?",
       "answers": [
         {
           "copy": "Road",
-          "nextQuestion": 5,
+          "nextQuestion": 4,
           "ratingIncrease": {
             "cloud": 5,
             "cloudx": 5,
@@ -167,7 +133,7 @@
         },
         {
           "copy": "Trail",
-          "nextQuestion": 5,
+          "nextQuestion": 4,
           "ratingIncrease": {
             "cloud": 2,
             "cloudx": 2,
@@ -182,12 +148,12 @@
       ]
     },
     {
-      "id": 4,
+      "id": 3,
       "copy": "How would you describe your running ability?",
       "answers": [
         {
           "copy": "Beginner",
-          "nextQuestion": 5,
+          "nextQuestion": 4,
           "ratingIncrease": {
             "cloud": 5,
             "cloudx": 4,
@@ -201,7 +167,7 @@
         },
         {
           "copy": "Experienced",
-          "nextQuestion": 6,
+          "nextQuestion": 5,
           "ratingIncrease": {
             "cloud": 5,
             "cloudx": 4,
@@ -216,12 +182,12 @@
       ]
     },
     {
-      "id": 5,
+      "id": 4,
       "copy": "Is this a training shoe or do you want something for race day?",
       "answers": [
         {
           "copy": "Training",
-          "nextQuestion": 6,
+          "nextQuestion": 5,
           "ratingIncrease": {
             "cloud": 5,
             "cloudx": 4,
@@ -235,7 +201,7 @@
         },
         {
           "copy": "Race",
-          "nextQuestion": 6,
+          "nextQuestion": 5,
           "ratingIncrease": {
             "cloud": 1,
             "cloudx": 4,
@@ -250,7 +216,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "copy": "What type of cushioning do you prefer?",
       "answers": [
         {
