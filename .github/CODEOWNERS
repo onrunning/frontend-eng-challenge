@@ -1,5 +1,5 @@
 # Action required: assign owners before merging this template.
-# Setup: .github/codeowners/README.md
+# Setup: .github/codeowners-guide/README.md
 # Based on onrunning/on-llm-agents; maintained manually in this repository.
 # All examples are commented out. This file currently assigns no owners.
 
