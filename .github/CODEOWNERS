@@ -1,0 +1,23 @@
+# Action required: assign owners before merging this template.
+# Setup: .github/codeowners/README.md
+# Based on onrunning/on-llm-agents; maintained manually in this repository.
+# All examples are commented out. This file currently assigns no owners.
+
+# Repository fallback: replace REPOSITORY_TEAM and uncomment.
+# * @onrunning/REPOSITORY_TEAM
+
+# Optional component ownership: use existing paths and valid team slugs.
+# Later matching rules replace earlier owners; the last match wins.
+# /apps/example/     @onrunning/COMPONENT_TEAM
+# /packages/example/ @onrunning/COMPONENT_TEAM
+
+# Shared tooling: add overrides only where responsibility differs.
+# /infrastructure/ @onrunning/PLATFORM_TEAM
+# /scripts/        @onrunning/PLATFORM_TEAM
+
+# Review governance and CI: keep these rules last.
+# /.github/          @onrunning/REPOSITORY_TEAM
+# /.github/CODEOWNERS @onrunning/REPOSITORY_TEAM
+
+# Teams must be visible and have explicit write access to this repository.
+# Multiple owners on a line allow approval by any one of them, not all.
