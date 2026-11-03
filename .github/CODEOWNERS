@@ -1,0 +1,23 @@
+# Repository CODEOWNERS assignments.
+# Setup: .github/codeowners-guide/README.md
+# Based on onrunning/on-llm-agents; maintained manually in this repository.
+# The repository fallback and .github configuration are assigned below.
+
+# Repository fallback.
+* @onrunning/digitalfrontenddevs
+
+# Optional component ownership: use existing paths and valid team slugs.
+# Later matching rules replace earlier owners; the last match wins.
+# /apps/example/     @onrunning/COMPONENT_TEAM
+# /packages/example/ @onrunning/COMPONENT_TEAM
+
+# Shared tooling: add overrides only where responsibility differs.
+# /infrastructure/ @onrunning/PLATFORM_TEAM
+# /scripts/        @onrunning/PLATFORM_TEAM
+
+# Review governance and CI: keep these rules last.
+/.github/          @onrunning/digitalfrontenddevs
+# /.github/CODEOWNERS @onrunning/REPOSITORY_TEAM
+
+# Teams must be visible and have explicit write access to this repository.
+# Multiple owners on a line allow approval by any one of them, not all.
