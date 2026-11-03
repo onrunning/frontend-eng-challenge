@@ -1,9 +1,9 @@
-# Action required: assign owners before merging this template.
+# Repository CODEOWNERS assignments.
 # Setup: .github/codeowners-guide/README.md
 # Based on onrunning/on-llm-agents; maintained manually in this repository.
-# All examples are commented out. This file currently assigns no owners.
+# The repository fallback and .github configuration are assigned below.
 
-# Repository fallback: replace REPOSITORY_TEAM and uncomment.
+# Repository fallback.
 * @onrunning/digitalfrontenddevs
 
 # Optional component ownership: use existing paths and valid team slugs.
